@@ -2,7 +2,7 @@
 
 <?php
 
-$students = [
+$liters = [
       'Адыгея Республика' => ['Адыгейск','Майкоп'],
 
       'Алтай Республика'=> ['Горно-Алтайск'],
@@ -174,10 +174,8 @@ $students = [
     ];
 
 
-  
-$summ = 0;
 
-foreach ($students as $key => $value) {
+foreach ($liters as $key => $value) {
     echo $key.':';
     foreach ($value as $key2 => $value2) {
         echo " ".$value2;

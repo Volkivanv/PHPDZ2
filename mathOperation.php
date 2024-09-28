@@ -4,23 +4,6 @@
 $a = 4;
 $b = 5;
 
-
-function add($arg1, $arg2) : float {
-    return $arg1 + $arg2;
-}
-
-function sub($arg1, $arg2) : float {
-    return $arg1 - $arg2;
-}
-
-function multiplicate($arg1, $arg2) : float {
-    return $arg1 * $arg2;
-}
-
-function div($arg1, $arg2) : float {
-    return $arg1 / $arg2;
-}
-
 function mathOperation($arg1, $arg2, $operation) : float {
     switch ($operation) {
         case "+": $result = $arg1 + $arg2; break;
